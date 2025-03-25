@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <div>
+        <input type="number" id="num1" placeholder="Angka pertama">
+        <input type="number" id="num2" placeholder="Angka kedua">
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+        <button onclick="calculate('%')">%</button>
+        <p id="calcResult"></p>
+    </div>
+    <script src="kalkulator.js" defer></script>
+
+    
+</body>
+</html>
