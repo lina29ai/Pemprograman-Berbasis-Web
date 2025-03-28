@@ -1,0 +1,108 @@
+/* Reset styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: rgb(33, 214, 255);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section.home {
+    display: flex;                 
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;           /* Lebih lega di kiri dan kanan */
+}
+
+.left-content {
+    max-width: 50%;
+    padding-left: 30px;          /* Menggeser teks ke kanan agar tidak terlalu mepet */
+}
+
+.left-content h1 {
+    margin-bottom: 15px;         /* Jarak antara judul dan paragraf */
+}
+
+.left-content p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.right-content {
+    max-width: 40%;              /* Menyesuaikan ukuran area foto */
+}
+
+.profile-img {
+    border-radius: 15px;         /* Membuat sudut tidak terlalu bulat */
+    width: 90%;                  /* Foto sedikit dikecilkan */
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #48a9f9;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    text-align: center;   /* Memusatkan teks pada seluruh section */
+    padding: 20px;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;  /* Tambahan jarak antara heading dan paragraf */
+}
+
+.photo-prestasi {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.achievement-category {
+    margin-bottom: 30px;
+}
+
+.achievement-photo {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.prestasi-img {
+    width: 180px;  /* Ukuran seragam untuk semua gambar */
+    height: auto;   /* Mempertahankan aspek rasio */
+    border-radius: 10px;  /* Membuat sudut gambar melengkung */
+}
+
+.achievement-photo p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #74d37aa4;  /* Abu-abu muda, ubah kode warna jika ingin warna lain */
+    color: #060a2d;  /* Mengubah warna teks agar tetap terlihat jelas di background */
+}
+
+.container {
+    background-color: #6ce67653; /* Background putih untuk bagian tengah (opsional) */
+    padding: 20px;
+    border-radius: 10px;  /* Membuat sudut melengkung jika menggunakan container */
+}

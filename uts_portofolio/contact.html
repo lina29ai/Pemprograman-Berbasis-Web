@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="prestasi.html">Prestasi</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="contact">
+        <h2>Hubungi Saya</h2>
+        <p>Email: romaulinamarbun@gmail.com</p>
+        <p>Nomor Telepon: +62 822-6004-4736</p>
+
+        <form action="#">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'">Kembali ke Beranda</button>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
