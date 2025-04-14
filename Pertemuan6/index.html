@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pendaftaran Rute Penerbangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Form Pendaftaran Rute Penerbangan</h1>
+        <form action="proses.php" method="POST">
+            <label for="maskapai">Nama Maskapai:</label>
+            <input type="text" id="maskapai" name="maskapai" required>
+
+            <label for="asal">Bandara Asal:</label>
+            <select id="asal" name="asal" required>
+                <option value="">-- Pilih Bandara Asal --</option>
+                <option value="Soekarno Hatta">Soekarno Hatta</option>
+                <option value="Husein Sastranegara">Husein Sastranegara</option>
+                <option value="Abdul Rachman Saleh">Abdul Rachman Saleh</option>
+                <option value="Juanda">Juanda</option>
+            </select>
+
+            <label for="tujuan">Bandara Tujuan:</label>
+            <select id="tujuan" name="tujuan" required>
+                <option value="">-- Pilih Bandara Tujuan --</option>
+                <option value="Ngurah Rai">Ngurah Rai</option>
+                <option value="Hasanuddin">Hasanuddin</option>
+                <option value="Inanwatan">Inanwatan</option>
+                <option value="Sultan Iskandar Muda">Sultan Iskandar Muda</option>
+            </select>
+
+            <label for="harga">Harga Tiket (Rp):</label>
+            <input type="number" id="harga" name="harga" placeholder="Contoh: 150000" required>
+
+            <p id="preview" style="font-weight: bold; color: #333;"></p>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
